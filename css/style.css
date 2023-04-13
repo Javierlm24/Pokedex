@@ -165,7 +165,6 @@ body{
         min-width: 100%;
         margin: 0%;
         padding: 0%;
-        margin-bottom: 20px;
         
     }
 
@@ -183,7 +182,7 @@ body{
     .centro_izquierda img{
         position: relative;
         margin: auto;
-        width: 195px;
+        width: 185px;
         align-items: center;
         right: 15px;
     }
@@ -232,7 +231,7 @@ body{
     }
     
     .inferior button{
-        width: 75px;
+        width: 70px;
         border-radius: 15px;
         margin-left: 44px;
     }
@@ -295,7 +294,7 @@ body{
     }
 
     .centro_izquierda img{
-        width: 195px;
+        width: 185px;
         height: auto;
     }
 
