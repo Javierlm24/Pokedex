@@ -144,42 +144,37 @@ body{
     }
 
     .contenedor-padre{
+        border-style: outset;
         min-width: 100%;
-        height: 100%;
-        background-color: #4493a5;
-        margin: auto;
-        border-radius: 10px;
+        min-height: 100%;
     }
 
     .superior{
-        background-color: #4493a5;
-        margin: auto;
-        width: 100%;
-        display: flex;
         justify-content: center;
-        border-radius: 10px;
     }
 
-    .superior img{
-        width: 55px;
-    }
-
-    .superior div img{
-        width: 150px;
-    }
-    
     .conteneder-padre2{
-        display: flex;
-        flex-direction: column;
+        display: block;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding: 20px;
     }
-    
+
     .centro_izquierda{
-        margin-top: 10px;
-        margin: 10px auto;
-        width: 35%;
-        height: 150px;
         background-color: #4493a5;
+        min-width: 100%;
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: 20px;
+        
     }
+
+    .centro_izquierda img{
+        width: 205px;
+        height: auto;
+    }
+
+
     
     .centro_izquierda h3{
         background-color: #f2f2f2;
@@ -188,10 +183,9 @@ body{
     .centro_izquierda img{
         position: relative;
         margin: auto;
-        width: 180px;
+        width: 195px;
         align-items: center;
         right: 15px;
-        bottom: 25px;
     }
     
     .centro_derecha{
@@ -271,58 +265,41 @@ body{
     .contenedor-padre{
         border-style: outset;
         min-width: 100%;
+        min-height: 100%;
     }
 
-    .nav{
+    .superior{
         justify-content: center;
     }
 
-    .container__main{
+    .centro_izquierda h3{
+        background-color: #f2f2f2;
+        height: 40px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .conteneder-padre2{
         display: block;
         grid-template-columns: 1fr;
         max-width: 100%;
         padding: 20px;
     }
 
-    .card{
+    .centro_izquierda{
+        background-color: #4493a5;
         min-width: 100%;
         margin: 0%;
         padding: 0%;
+        margin-bottom: 30px;
         
     }
 
-    .card img{
-        width: 100%;
+    .centro_izquierda img{
+        width: 195px;
         height: auto;
     }
 
-    .card__features{
-        margin-top: -60px;
-        min-width: 100%;
-    }
-
-    .card__data{
-        padding-top: 60px;
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-
-    .card__type{
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .footer{
-        display: grid;
-    }
-
-    .others{
-        text-align: center;
-    }
-
-    .cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 
 }
 
