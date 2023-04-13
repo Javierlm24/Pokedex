@@ -206,11 +206,10 @@ body{
         color: gray;
     }
         
-    
     .inferior {
         display: grid;
-        width: 60%;
-        border-radius: 10px;
+        width: 70%;
+        border-radius: 15px;
         background-color: #f2f2f2;
         grid-template-columns: 120px 110px 170px;
         grid-template-rows: 2fr 1fr;
@@ -233,7 +232,7 @@ body{
     }
     
     .inferior button{
-        width: 80px;
+        width: 75px;
         border-radius: 15px;
         margin-left: 44px;
     }
