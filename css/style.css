@@ -145,7 +145,8 @@ body{
 
     .contenedor-padre{
         border-style: outset;
-        min-width: 100%
+        min-width: 100%;
+        height: 700px;
     }
 
     .superior{
@@ -260,7 +261,7 @@ body{
     .contenedor-padre{
         border-style: outset;
         min-width: 100%;
-        min-height: 100%;
+        height: 800px;
     }
 
     .superior{
