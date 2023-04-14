@@ -145,8 +145,7 @@ body{
 
     .contenedor-padre{
         border-style: outset;
-        min-width: 100%;
-        min-height: 100%;
+        min-width: 100%
     }
 
     .superior{
@@ -157,15 +156,13 @@ body{
         display: block;
         grid-template-columns: 1fr;
         max-width: 100%;
-        padding: 20px;
     }
 
     .centro_izquierda{
         background-color: #4493a5;
         min-width: 100%;
-        margin: 0%;
+        margin: auto;
         padding: 0%;
-        
     }
 
     .centro_izquierda img{
@@ -184,7 +181,7 @@ body{
         margin: auto;
         width: 185px;
         align-items: center;
-        right: 15px;
+        right: 15px; 
     }
     
     .centro_derecha{
@@ -193,7 +190,7 @@ body{
         grid-template-rows: 2fr 2fr;
         margin-top: 10px;
         margin: 10px auto;
-        width: 75%;
+        width: 80%;
         height: 200px;
         background-color: #f2f2f2;
     }
@@ -210,7 +207,7 @@ body{
         width: 70%;
         border-radius: 15px;
         background-color: #f2f2f2;
-        grid-template-columns: 120px 110px 170px;
+        grid-template-columns: 100px 90px 170px;
         grid-template-rows: 2fr 1fr;
         place-content: center;
         align-content: center;
@@ -233,7 +230,7 @@ body{
     .inferior button{
         width: 70px;
         border-radius: 15px;
-        margin-left: 44px;
+        margin-left: 48px;
     }
 
     #back-button {

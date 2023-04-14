@@ -98,7 +98,6 @@ arcanineButton.addEventListener("click", () => {
     pokemonHeight.innerText = "1,0 m";
     pokemonWeight.innerText = "20,0kg";
 
-
     backButton.disabled = false;
   });
 
